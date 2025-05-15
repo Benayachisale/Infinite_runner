@@ -1,0 +1,30 @@
+
+@font-face{
+  font-family:'bold';
+  src:url('fonts/Garet.otf');
+}
+
+@font-face{
+  font-family:'thin';
+  src:url('fonts/Garet-Book.otf');
+}
+@font-face{
+  font-family:'head';
+  src:url('fonts/Linked.otf');
+}
+body{
+  background-color:transparent;
+  width:100vw;
+  height:100vh;
+  margin:0;
+  text-align: center;
+  font-family: thin;
+  color:black;
+  touch-action: none;
+}
+
+
+#game{
+  height:100%;
+  width:100%;
+}
