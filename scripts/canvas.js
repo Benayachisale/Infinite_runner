@@ -435,7 +435,8 @@ ctx.fillText(-10-GAME.speed,300,200);*/
 
    ctx.fillStyle="rgba(0,0,0,0.5)";
 ctx.font="15px thin"
-ctx.fillText(GAME.copyright,210,50)
+ctx.fillText(GAME.copyright,210,width/2+20)
+    ctx.fillText("Click on the screen to jump",210,150)
 
 //speed text 
 let value=GAME.speed>=1000?"Kilometes":"Metres";
