@@ -435,7 +435,7 @@ ctx.fillText(-10-GAME.speed,300,200);*/
 
    ctx.fillStyle="rgba(0,0,0,0.5)";
 ctx.font="15px thin"
-ctx.fillText(GAME.copyright,210,height-15)
+ctx.fillText(GAME.copyright,210,50)
 
 //speed text 
 let value=GAME.speed>=1000?"Kilometes":"Metres";
